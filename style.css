@@ -12,3 +12,38 @@ body{
     color: #333;
 }
 
+/* Navbar styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1D1D1F;
+    color: white;
+    padding: 0.5rem 16rem;
+    font-size: 1rem;
+}
+
+nav .logo{
+    font-size: 1.3rem;
+    color: white;
+}
+
+nav a{
+    color: #6C6C6C;
+}
+
+i{
+    font-weight: 500;
+    color: #6C6C6C;
+}
+
+nav a:hover{
+    color: #f0f0f0;
+    transition: 0.3s;
+}
+
+i:hover{
+    color: #f0f0f0;
+    transition: 0.3s;
+}
