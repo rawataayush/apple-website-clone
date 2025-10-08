@@ -61,7 +61,7 @@ main{
     align-items: center;
     width: 100%;
     height: 83vh;
-    background-image:  url("/images/download.jpeg");
+    background-image:  url("./images/download.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ button{
     align-items: center;
     width: 100%;
     height: 83vh;
-    background-image:  url("/images/iphone-air.jpeg");
+    background-image:  url("./images/iphone-air.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ button{
     align-items: center;
     width: 100%;
     height: 83vh;
-    background-image:  url("/images/iphone-17.jpeg");
+    background-image:  url("./images/iphone-17.jpeg");
     background-position: center;
     background-size: cover;
     margin-bottom: 0.5rem;
@@ -206,7 +206,7 @@ button{
     align-items: center;
     padding-top: 2rem;
     height: 83vh;
-    background-image:  url("/images/icloud.jpeg");
+    background-image:  url("./images/icloud.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ button{
     align-items: center;
     height: 83vh;
     padding-top: 2rem;
-    background-image:  url("/images/apple-Watch-Series.jpeg");
+    background-image:  url("./images/apple-Watch-Series.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,7 +230,7 @@ button{
     align-items: center;
     height: 83vh;
     padding-top: 2rem;
-    background-image:  url("/images/AirPod-Pro.jpeg");
+    background-image:  url("./images/AirPod-Pro.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -242,7 +242,7 @@ button{
     align-items: center;
     height: 83vh;
     padding-top: 2rem;
-    background-image:  url("/images/apple-iPad-Air.jpeg");
+    background-image:  url("./images/apple-iPad-Air.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -253,7 +253,7 @@ button{
     align-items: center;
     height: 83vh;
     padding-top: 2rem;
-    background-image:  url("/images/trade-in.jpeg");
+    background-image:  url("./images/trade-in.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,7 +265,7 @@ button{
     align-items: center;
     height: 83vh;
     padding-top: 2rem;
-    background-image:  url("/images/icard.jpeg");
+    background-image:  url("./images/icard.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
