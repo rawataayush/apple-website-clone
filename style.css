@@ -15,7 +15,7 @@ html, body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   position: relative;
   top: 0;
   background-color: #f5f5f5;
@@ -24,7 +24,6 @@ header {
 }
 header nav {
   height: 2.5rem;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -186,6 +185,9 @@ main .iphone-17-section button {
   border-radius: 25px;
   cursor: pointer;
 }
+main .iphone-17-section .secondary {
+  margin-left: 1rem;
+}
 main .collective-sections {
   display: grid;
   grid-template-rows: 75vh 75vh 75vh 75vh 75vh 75vh;
@@ -295,4 +297,156 @@ main .collective-sections .icard-section {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  main .hero-section {
+    background-size: auto 100%;
+    color: #f5f5f5;
+  }
+  main .iphone-air-section {
+    background-size: auto 100%;
+  }
+  main .iphone-17-section {
+    background-size: auto 100%;
+  }
+  main .collective-sections {
+    grid-template-rows: 75vh 75vh 75vh;
+    grid-template-columns: 48vw 48vw;
+    margin-inline: 0.1em;
+    gap: 0.5em;
+  }
+  main .collective-sections p {
+    width: 75%;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    background-color: #1D1D1F;
+    /* Navbar styles */
+  }
+  header nav {
+    height: 6vh;
+    padding: 0.5rem 2rem;
+    overflow: hidden;
+  }
+  header nav .logo {
+    color: white;
+  }
+  header nav a {
+    display: initial;
+  }
+  header nav .right-icons i:hover {
+    color: #f0f0f0;
+  }
+  header nav .right-icons .menu {
+    display: none;
+  }
+  main {
+    /* collection section */
+  }
+  main .hero-section {
+    height: 83vh;
+    background-position: center;
+    background-size: cover;
+  }
+  main .hero-section h2 {
+    font-size: 3.2rem;
+    color: #f0f0f0;
+    margin-top: 2.5rem;
+  }
+  main .hero-section p {
+    font-size: 1.6rem;
+    color: #f0f0f0;
+    margin: 0.5rem 0 1rem 0;
+  }
+  main .hero-section button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.2rem;
+  }
+  main .iphone-air-section {
+    height: 83vh;
+    background-position: center;
+    background-size: cover;
+  }
+  main .iphone-air-section h2 {
+    font-size: 3.2rem;
+  }
+  main .iphone-air-section p {
+    font-size: 1.6rem;
+    margin: 0.5rem 0 1rem 0;
+    width: 50%;
+  }
+  main .iphone-air-section button {
+    padding: 0.5rem 1.2rem;
+    font-size: 1.2rem;
+  }
+  main .iphone-17-section {
+    height: 83vh;
+    background-position: center;
+    background-size: cover;
+  }
+  main .iphone-17-section h2 {
+    font-size: 3.2rem;
+  }
+  main .iphone-17-section p {
+    margin: 0.5rem 0 1rem 0;
+  }
+  main .iphone-17-section button {
+    padding: 0.5rem 1.2rem;
+    font-size: 1.2rem;
+  }
+  main .collective-sections {
+    grid-template-rows: 83vh 83vh 83vh;
+    margin-inline: 0.5rem;
+  }
+  main .collective-sections h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  main .collective-sections p {
+    font-size: 1.3rem;
+    margin: 0.5rem 0 1rem 0;
+    width: 75%;
+  }
+  main .collective-sections img {
+    width: 50%;
+    height: auto;
+  }
+  main .collective-sections .icloud-section {
+    height: 83vh;
+    background-position: center;
+    background-size: cover;
+  }
+  main .collective-sections .watch-section {
+    height: 83vh;
+    background-position: center;
+    background-size: cover;
+  }
+  main .collective-sections .airpod-section {
+    height: 83vh;
+    background-position: center;
+    background-size: cover;
+  }
+  main .collective-sections .ipad-air-section {
+    height: 83vh;
+  }
+  main .collective-sections .trade-in-section {
+    height: 83vh;
+  }
+  main .collective-sections .icard-section {
+    height: 83vh;
+  }
+}
+@media (min-width: 1440px) {
+  header nav {
+    padding: 0.5rem 16rem;
+  }
+  main .collective-sections p {
+    width: 50%;
+  }
+  main .collective-sections img {
+    height: 15%;
+  }
 }/*# sourceMappingURL=style.css.map */
