@@ -1,294 +1,298 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    scroll-behavior: smooth;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
 }
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-    background: #fff;
-    color: #333;
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  color: #333;
 }
 
 header {
-    position: relative;
-    top: 0;
-    background-color: #1D1D1F;
-    transition: all ease 0.5s;
-    /* Navbar styles */
+  width: 100vw;
+  position: relative;
+  top: 0;
+  background-color: #f5f5f5;
+  transition: all ease 0.5s;
+  /* Navbar styles */
 }
-
 header nav {
-    height: 6vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    padding: 0.5rem 16rem;
-    font-size: 1rem;
+  height: 2.5rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
 }
-
 header nav .logo {
-    font-size: 1.3rem;
-    color: white;
+  font-size: 1.3rem;
+  color: #1b1b1b;
 }
-
 header nav a {
-    color: #6C6C6C;
+  color: #6C6C6C;
+  display: none;
 }
-
 header nav a:hover {
-    color: #f0f0f0;
-    transition: 0.3s;
+  color: #f0f0f0;
+  transition: 0.3s;
 }
-
-header nav i {
-    font-weight: 500;
-    color: #6C6C6C;
+header nav .right-icons {
+  display: flex;
+  gap: 2rem;
 }
-
-header nav i:hover {
-    color: #f0f0f0;
-    transition: 0.3s;
+header nav .right-icons i {
+  color: #6C6C6C;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+header nav .right-icons i:hover {
+  color: #020202;
+  transition: 0.3s;
 }
 
 main {
-    height: 100%;
-    width: 100%;
-    /* collection section */
+  height: 100%;
+  width: 100%;
+  /* collection section */
 }
-
 main .hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 83vh;
-    background-image: url("./images/download.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  background-image: url("./images/download.jpeg");
+  background-position: bottom;
+  background-size: auto 60%;
+  background-repeat: no-repeat;
+  margin-bottom: 0.5rem;
 }
-
 main .hero-section h2 {
-    font-size: 3.2rem;
-    font-weight: 700;
-    color: #f0f0f0;
-    margin-top: 2.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
 }
-
 main .hero-section p {
-    font-size: 1.6rem;
-    color: #f0f0f0;
-    margin: 0.5rem 0 1rem 0;
-    text-align: center;
-    width: 50%;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  width: 50%;
 }
-
 main .hero-section button {
-    padding: 0.5rem 1.2rem;
-    font-size: 1.2rem;
-    border: none;
-    background: #1573D3;
-    border: 2px solid #1573D3;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: #1573D3;
+  border: 2px solid #1573D3;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
 }
-
 main .hero-section .secondary {
-    background: none;
-    color: #1573D3;
-    margin-left: 1rem;
+  background: none;
+  color: #1573D3;
+  margin-left: 1rem;
 }
-
 main .hero-section .secondary:hover {
-    background: #1573D3;
-    color: white;
-    transition: 0.3s;
+  background: #1573D3;
+  color: white;
+  transition: 0.3s;
 }
-
 main .iphone-air-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 83vh;
-    background-image: url("./images/iPhone-Air.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  background-image: url("./images/iPhone-Air.jpeg");
+  background-position: bottom;
+  background-size: auto 45%;
+  background-repeat: no-repeat;
+  margin-bottom: 0.5rem;
 }
-
 main .iphone-air-section h2 {
-    font-size: 3.2rem;
-    font-weight: 700;
-    color: #222;
-    margin-top: 2.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-top: 2.5rem;
 }
-
 main .iphone-air-section p {
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #222;
-    margin: 0.5rem 0 1rem 0;
-    text-align: center;
-    width: 50%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
-
 main .iphone-air-section button {
-    padding: 0.5rem 1.2rem;
-    font-size: 1.2rem;
-    border: none;
-    background: #1573D3;
-    border: 2px solid #1573D3;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: #1573D3;
+  border: 2px solid #1573D3;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
 }
-
 main .iphone-air-section .secondary {
-    background: none;
-    color: #1573D3;
-    margin-left: 1rem;
+  background: none;
+  color: #1573D3;
+  margin-left: 1rem;
 }
-
+main .iphone-air-section .secondary:hover {
+  background: #1573D3;
+  color: white;
+  transition: 0.3s;
+}
 main .iphone-17-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 83vh;
-    background-image: url("./images/iPhone-17.jpeg");
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  background-image: url("./images/iPhone-17.jpeg");
+  background-position: bottom;
+  background-size: auto 55%;
+  background-repeat: no-repeat;
+  margin-bottom: 0.5rem;
 }
-
 main .iphone-17-section h2 {
-    font-size: 3.2rem;
-    font-weight: 700;
-    color: #222;
-    margin-top: 2.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-top: 2.5rem;
 }
-
 main .iphone-17-section p {
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #222;
-    margin: 0.5rem 0 1rem 0;
-    text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
-
 main .iphone-17-section button {
-    padding: 0.5rem 1.2rem;
-    font-size: 1.2rem;
-    border: none;
-    background: #1573D3;
-    border: 2px solid #1573D3;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: #1573D3;
+  border: 2px solid #1573D3;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
 }
-
 main .collective-sections {
-    display: grid;
-    grid-template-rows: 83vh 83vh 83vh;
-    grid-template-columns: 48vw 49vw;
-    gap: 0.8rem;
-    margin: 0 0.5rem 0 0.5rem;
+  display: grid;
+  grid-template-rows: 75vh 75vh 75vh 75vh 75vh 75vh;
+  grid-template-columns: 100%;
+  gap: 0.8rem;
+  margin-inline: 0.5rem;
 }
-
 main .collective-sections h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #222;
-    margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  padding-bottom: 0.8rem;
 }
-
 main .collective-sections p {
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #222;
-    margin: 0.5rem 0 1rem 0;
-    text-align: center;
-    width: 50%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  padding-bottom: 0.8rem;
+  text-align: center;
 }
-
+main .collective-sections button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: #1573D3;
+  border: 2px solid #1573D3;
+  color: white;
+  border-radius: 1.3rem;
+  cursor: pointer;
+}
+main .collective-sections .secondary {
+  background: none;
+  color: #1573D3;
+  margin-left: 1rem;
+}
+main .collective-sections .secondary:hover {
+  background: #1573D3;
+  color: white;
+  transition: 0.3s;
+}
+main .collective-sections img {
+  width: 60%;
+  padding-bottom: 0.8rem;
+}
 main .collective-sections .icloud-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
-    height: 83vh;
-    background-image: url("./images/iCloud.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  height: 75vh;
+  background-image: url("./images/iCloud.jpeg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 main .collective-sections .watch-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 83vh;
-    padding-top: 2rem;
-    background-image: url("./images/apple-Watch-Series.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  padding-top: 2rem;
+  background-image: url("./images/apple-Watch-Series.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 main .collective-sections .airpod-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 83vh;
-    padding-top: 2rem;
-    background-image: url("./images/AirPod-Pro.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  padding-top: 1rem;
+  background-image: url("./images/AirPod-Pro.jpeg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 main .collective-sections .ipad-air-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 83vh;
-    padding-top: 2rem;
-    background-image: url("./images/apple-iPad-Air.jpeg");
-    background-position: center;
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  padding-top: 2rem;
+  background-image: url("./images/apple-iPad-Air.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 main .collective-sections .trade-in-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 83vh;
-    padding-top: 2rem;
-    background-image: url("./images/trade-in.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  padding-top: 2rem;
+  background-image: url("./images/trade-in.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 main .collective-sections .icard-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 83vh;
-    padding-top: 2rem;
-    background-image: url("./images/icard.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  padding-top: 2rem;
+  background-image: url("./images/icard.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
